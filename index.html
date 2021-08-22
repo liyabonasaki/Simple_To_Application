@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Todo List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+	<div class="container">
+		<h2>TODO LIST</h2>
+		<h4>Made with love</h4>
+		<hr>
+		<h3>Add Item</h3>
+		<p>
+			<input id="new-task" type="text" required><button>Add</button>
+		</p>
+
+		<h3>Todo</h3>
+		<ul id="incomplete-tasks">
+			<li><input type="checkbox"><label>Pay Bills</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+			<li><input type="checkbox"><label>Go Shopping</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+		</ul>
+
+		<h3>Completed</h3>
+		<ul id="completed-tasks">
+			<li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+		</ul>
+	</div>
+
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
